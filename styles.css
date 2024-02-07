@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .App {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App.black {
+    background-color: black;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
